@@ -21,5 +21,5 @@ struct DetayView: View {
 }
 
 #Preview {
-    DetayView(secilenKahraman: batman)
+    DetayView(secilenKahraman: superman)
 }

@@ -33,7 +33,9 @@ let batman = SuperKahraman(isim: "Batman" , gercekIsim:"Bruce Wayne" , gorselIsm
 let superman = SuperKahraman(isim: "Superman" , gercekIsim:"Clark Kent" , gorselIsmi: "superman", sehir: "Kansas", meslek: "Gazeteci", koordinat: Koordinat(latitude: 39.0865207, longitude: -94.7089592))
 let ironman = SuperKahraman(isim: "Ironman", gercekIsim: "Tony Stark", gorselIsmi: "ironman", sehir: "New York", meslek: "İş Adamı", koordinat: Koordinat(latitude: 40.7160119, longitude: -74.0524729))
 let spiderman = SuperKahraman(isim: "Spider-Man", gercekIsim: "Peter Parker", gorselIsmi: "spiderman", sehir: "New York", meslek: "Fotoğrafçı", koordinat: Koordinat(latitude: 40.7160119, longitude: -74.0524729))
+let deadpool = SuperKahraman(isim: "Deadpool", gercekIsim: "Wade Winston Wilson", gorselIsmi: "deadpool", sehir: "Manhattan", meslek: "Asker", koordinat: Koordinat(latitude: 40.78343000, longitude: -73.96625000))
+let drdoom = SuperKahraman(isim: "Dr.Doom", gercekIsim: "Victor Von Doom", gorselIsmi: "doom", sehir: "Latveria", meslek: "Bilim insanı", koordinat: Koordinat(latitude: 46.866667, longitude: 25.983333))
 
-let superKahramanDizisi = [batman,superman,ironman,spiderman]
+let superKahramanDizisi = [batman,superman,ironman,spiderman,deadpool,drdoom]
 
 

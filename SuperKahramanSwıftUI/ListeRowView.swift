@@ -8,11 +8,30 @@
 import SwiftUI
 
 struct ListeRowView: View {
+    var superKahraman : SuperKahraman
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Image(superKahraman.gorselIsmi)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 150, height: 100, alignment: .leading)
+                .clipShape(Circle())
+            Spacer()
+            VStack{
+                Text(superKahraman.isim)
+                    .font(.title)
+                    .bold()
+                    Text(superKahraman.gercekIsim)
+                    .font(.title)
+                        
+            }
+                
+            Spacer()
+        }
+        
     }
 }
 
 #Preview {
-    ListeRowView()
+    ListeRowView(superKahraman: batman)
 }

@@ -31,7 +31,9 @@ struct Koordinat {
 
 let batman = SuperKahraman(isim: "Batman" , gercekIsim:"Bruce Wayne" , gorselIsmi: "batman", sehir: "Gotham", meslek: "İş Adamı", koordinat: Koordinat(latitude: 41.8713679, longitude: -87.7669902))
 let superman = SuperKahraman(isim: "Superman" , gercekIsim:"Clark Kent" , gorselIsmi: "superman", sehir: "Kansas", meslek: "Gazeteci", koordinat: Koordinat(latitude: 39.0865207, longitude: -94.7089592))
-let spiderman = SuperKahraman(isim: "Spiderman", gercekIsim: "Peter Parker", gorselIsmi: "spiderman", sehir: "New York", meslek: "Fotoğrafçı", koordinat:Koordinat(latitude: 40.7160119, longitude: -74.0524729))
-let ironman = SuperKahraman(isim: "Iron Man", gercekIsim: "Tony Stark", gorselIsmi: "ironman", sehir: "Los Angeles", meslek: "İş Adamı", koordinat: Koordinat(latitude: 33.8003308, longitude: -118.2261494))
-let superKahramanDizisi = [batman,superman,spiderman,ironman]
+let ironman = SuperKahraman(isim: "Ironman", gercekIsim: "Tony Stark", gorselIsmi: "ironman", sehir: "New York", meslek: "İş Adamı", koordinat: Koordinat(latitude: 40.7160119, longitude: -74.0524729))
+let spiderman = SuperKahraman(isim: "Spider-Man", gercekIsim: "Peter Parker", gorselIsmi: "spiderman", sehir: "New York", meslek: "Fotoğrafçı", koordinat: Koordinat(latitude: 40.7160119, longitude: -74.0524729))
+
+let superKahramanDizisi = [batman,superman,ironman,spiderman]
+
 

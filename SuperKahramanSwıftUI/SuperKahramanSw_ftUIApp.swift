@@ -11,7 +11,7 @@ import SwiftUI
 struct SuperKahramanSw_ftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ListeView()
         }
     }
 }
